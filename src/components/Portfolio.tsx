@@ -157,9 +157,13 @@ const Hero = () => (
         transition={{ duration: 0.6, delay: 0.8 }}
         className="pt-8"
       >
-        <button className="px-10 py-4 bg-cyan-accent text-deep-black font-bold rounded-full hover:bg-white transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-cyan-500/20">
+        <a 
+          href="/Yahya_Ali_CV.pdf" 
+          download="Yahya_Ali_CV.pdf"
+          className="inline-block px-10 py-4 bg-cyan-accent text-deep-black font-bold rounded-full hover:bg-white transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-cyan-500/20"
+        >
           DOWNLOAD CV
-        </button>
+        </a>
       </motion.div>
     </div>
 
